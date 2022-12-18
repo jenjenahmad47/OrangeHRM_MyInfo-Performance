@@ -14,4 +14,9 @@ driver.find_element(By.CSS_SELECTOR, "[type=submit]").click()
 time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/div/div[1]/div[1]/aside/nav/div[2]/ul/li[5]/a").click()
 time.sleep(5)
-
+driver.find_element(By.XPATH, ("/html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div[1]")).click() # Coloum Job Title
+time.sleep(3)
+driver.find_element(By.XPATH, ("/html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[1]/div/div[1]/div/div[2]/div/div[2]/div[2]/span")).click() # Chief Executive Officer
+time.sleep(5)
+driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div[2]/div/div[1]/div[2]/form/div[4]/button[2]").click()
+time.sleep(10)
