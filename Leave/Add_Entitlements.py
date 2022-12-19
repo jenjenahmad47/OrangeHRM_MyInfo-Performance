@@ -61,13 +61,6 @@ class TestAuth(unittest.TestCase):
         driver.find_element(By.XPATH, "/html/body/div/div[3]/div/div/div/div[3]/button[2]").click()
         time.sleep(5)
         
-        
-        
-        
-        
-        
-        
-       
     def tearDown(self): 
         self.driver.close()
 
