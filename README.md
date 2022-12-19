@@ -48,3 +48,6 @@ Kelompok 6 :
  c. Automation Testing: 
       Menu PIM feature Add Employee dan Custom Field
       Menu Leave feature Add Entitlement
+
+VIDEO RUN TEST :
+https://drive.google.com/drive/folders/1EFxwnKnrjR5MQveDsOeWyVN84xbC6jBu?usp=sharing
