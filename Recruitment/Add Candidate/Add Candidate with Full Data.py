@@ -21,9 +21,9 @@ driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div[2]/div/div/form/
 time.sleep(5)
 driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[1]/div/div/div/div[2]/div[3]/div[2]/input").send_keys("Renjun") # Last Name
 time.sleep(5)
-driver.find_element(By.XPATH, "//div[@class='oxd-select-text-input']").click() # vacancy
+driver.find_element(By.XPATH, "//div[@class='oxd-select-text-input']").click() 
 time.sleep(3)
-driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div/div/div[2]/div/div[2]/div[2]/span").click() # isi vacancy
+driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[2]/div/div/div/div[2]/div/div[2]/div[2]/span").click() 
 time.sleep(3)
 driver.find_element(By.XPATH, "/html/body/div/div[1]/div[2]/div[2]/div/div/form/div[3]/div/div[1]/div/div[2]/input").send_keys ("daejunyoung@gmail.com") # Email
 time.sleep(5)
