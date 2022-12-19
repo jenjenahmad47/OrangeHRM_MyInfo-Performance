@@ -67,7 +67,7 @@ LicExpireDate.send_keys(Keys.CONTROL + 'a', Keys.BACKSPACE)
 LicExpireDate.send_keys("2025-12-18")
 time.sleep(3)
 
-
+# Input SSN Number and SIN Number
 SSNNum=driver.find_element(By.XPATH, "//div[@id='app']/div[1]/div[2]/div[2]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/div[2]/div[3]/div[1]/div[1]/div[2]/input[1]")
 ClearSSNNum=SSNNum.send_keys(Keys.CONTROL + 'a', Keys.BACKSPACE)
 InputSSNNum=SSNNum.send_keys("10987654321")
