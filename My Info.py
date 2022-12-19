@@ -77,7 +77,7 @@ ClearSINNum=SINNum.send_keys(Keys.CONTROL + 'a', Keys.BACKSPACE)
 InputSINNum=SINNum.send_keys("10987654321")
 time.sleep(3)
 
-# Input Nationality
+# Input User Nationality
 nationality = WebDriverWait(driver,5).until(EC.visibility_of_element_located((By.XPATH, "(//div[@class='oxd-select-text-input'])[1]")))
 for x in range(83):nationality.send_keys(Keys.ARROW_DOWN)
 #nationality.send_keys(Keys.RETURN)
